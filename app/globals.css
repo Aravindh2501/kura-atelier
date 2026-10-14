@@ -1,0 +1,169 @@
+@import "tailwindcss";
+
+@theme {
+  /* colors */
+  --color-on-secondary-fixed-variant: #314d3a;
+  --color-inverse-primary: #c8c6c5;
+  --color-secondary-fixed-dim: #aeceb6;
+  --color-primary: #000000;
+  --color-on-primary-fixed: #1c1b1b;
+  --color-tertiary: #000000;
+  --color-secondary-fixed: #caebd1;
+  --color-on-primary-container: #858383;
+  --color-primary-container: #1c1b1b;
+  --color-surface-dim: #dbdad6;
+  --color-on-secondary-container: #4e6b57;
+  --color-secondary: #486551;
+  --color-tertiary-container: #390c00;
+  --color-surface-container-lowest: #ffffff;
+  --color-on-secondary: #ffffff;
+  --color-primary-fixed: #e5e2e1;
+  --color-on-tertiary-fixed: #390c00;
+  --color-surface-container: #f0eeea;
+  --color-error: #ba1a1a;
+  --color-on-background: #1b1c1a;
+  --color-surface-tint: #5f5e5e;
+  --color-secondary-container: #caebd1;
+  --color-surface: #fbf9f5;
+  --color-on-surface-variant: #444748;
+  --color-on-secondary-fixed: #042011;
+  --color-on-primary-fixed-variant: #474646;
+  --color-tertiary-fixed-dim: #ffb59c;
+  --color-surface-container-low: #f5f3ef;
+  --color-outline-variant: #c4c7c7;
+  --color-inverse-surface: #30312e;
+  --color-inverse-on-surface: #f2f0ec;
+  --color-surface-variant: #e4e2de;
+  --color-on-primary: #ffffff;
+  --color-surface-container-highest: #e4e2de;
+  --color-on-surface: #1b1c1a;
+  --color-background: #fbf9f5;
+  --color-tertiary-fixed: #ffdbcf;
+  --color-error-container: #ffdad6;
+  --color-on-tertiary-container: #d3623a;
+  --color-outline: #747878;
+  --color-on-error: #ffffff;
+  --color-surface-container-high: #eae8e4;
+  --color-surface-bright: #fbf9f5;
+  --color-on-tertiary: #ffffff;
+  --color-primary-fixed-dim: #c8c6c5;
+  --color-on-error-container: #93000a;
+  --color-on-tertiary-fixed-variant: #822801;
+
+  /* radius */
+  --radius-sm: 1rem;
+  --radius-lg: 2rem;
+  --radius-xl: 3rem;
+  --radius-full: 9999px;
+
+  /* spacing */
+  --spacing-gutter-mobile: 1rem;
+  --spacing-margin-mobile: 1.25rem;
+  --spacing-space-xl: 3.5rem;
+  --spacing-space-lg: 2rem;
+  --spacing-margin: 3rem;
+  --spacing-gutter: 1.5rem;
+  --spacing-space-xs: 0.375rem;
+  --spacing-space-sm: 0.75rem;
+  --spacing-space-md: 1.25rem;
+
+
+  /* type scale */
+  --text-headline-xl: 44px;
+  --text-headline-xl--line-height: 52px;
+  --text-headline-xl--letter-spacing: -0.025em;
+  --text-headline-xl--font-weight: 700;
+  --text-label-md: 12px;
+  --text-label-md--line-height: 16px;
+  --text-label-md--letter-spacing: 0.06em;
+  --text-label-md--font-weight: 500;
+  --text-headline-sm: 20px;
+  --text-headline-sm--line-height: 28px;
+  --text-headline-sm--letter-spacing: -0.01em;
+  --text-headline-sm--font-weight: 600;
+  --text-display-hero-mobile: 40px;
+  --text-display-hero-mobile--line-height: 46px;
+  --text-display-hero-mobile--letter-spacing: -0.02em;
+  --text-display-hero-mobile--font-weight: 700;
+  --text-label-lg: 14px;
+  --text-label-lg--line-height: 18px;
+  --text-label-lg--letter-spacing: 0.04em;
+  --text-label-lg--font-weight: 600;
+  --text-body-lg: 18px;
+  --text-body-lg--line-height: 28px;
+  --text-body-lg--letter-spacing: -0.01em;
+  --text-body-lg--font-weight: 400;
+  --text-label-sm: 10px;
+  --text-label-sm--line-height: 14px;
+  --text-label-sm--letter-spacing: 0.08em;
+  --text-label-sm--font-weight: 500;
+  --text-headline-xl-mobile: 32px;
+  --text-headline-xl-mobile--line-height: 38px;
+  --text-headline-xl-mobile--letter-spacing: -0.02em;
+  --text-headline-xl-mobile--font-weight: 700;
+  --text-headline-lg: 32px;
+  --text-headline-lg--line-height: 40px;
+  --text-headline-lg--letter-spacing: -0.02em;
+  --text-headline-lg--font-weight: 600;
+  --text-display-hero: 64px;
+  --text-display-hero--line-height: 72px;
+  --text-display-hero--letter-spacing: -0.03em;
+  --text-display-hero--font-weight: 700;
+  --text-body-md: 15px;
+  --text-body-md--line-height: 24px;
+  --text-body-md--letter-spacing: 0em;
+  --text-body-md--font-weight: 400;
+  --text-body-sm: 13px;
+  --text-body-sm--line-height: 20px;
+  --text-body-sm--letter-spacing: 0.005em;
+  --text-body-sm--font-weight: 400;
+  --text-headline-md: 24px;
+  --text-headline-md--line-height: 32px;
+  --text-headline-md--letter-spacing: -0.015em;
+  --text-headline-md--font-weight: 600;
+}
+
+/* Fonts come from next/font (see app/layout.tsx); `inline` lets the utilities read those variables. */
+@theme inline {
+  --font-headline-xl: var(--font-syne), sans-serif;
+  --font-headline-lg: var(--font-syne), sans-serif;
+  --font-headline-md: var(--font-syne), sans-serif;
+  --font-headline-sm: var(--font-syne), sans-serif;
+  --font-headline-xl-mobile: var(--font-syne), sans-serif;
+  --font-display-hero: var(--font-syne), sans-serif;
+  --font-display-hero-mobile: var(--font-syne), sans-serif;
+  --font-label-lg: var(--font-grotesk), sans-serif;
+  --font-label-md: var(--font-grotesk), sans-serif;
+  --font-label-sm: var(--font-grotesk), sans-serif;
+  --font-body-lg: var(--font-jakarta), sans-serif;
+  --font-body-md: var(--font-jakarta), sans-serif;
+  --font-body-sm: var(--font-jakarta), sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overscroll-behavior: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide horizontal scrollbars on pill rows but keep them scrollable. */
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-secondary);
+  outline-offset: 2px;
+}

@@ -1,0 +1,79 @@
+{
+  "eyebrow": "Japanese Heavyweight Jersey",
+  "title": "The Graphic Archive",
+  "blurb": "Water-based discharge prints cured for enduring softness and subtle patina.",
+  "collections": {
+    "drops": "New Drops",
+    "archive": "Archive & Prints"
+  },
+  "tabs": [
+    {
+      "key": "all",
+      "label": "All Prints"
+    },
+    {
+      "key": "men",
+      "label": "Men's Studio"
+    },
+    {
+      "key": "women",
+      "label": "Women's Studio"
+    },
+    {
+      "key": "unisex",
+      "label": "Unisex Editions"
+    }
+  ],
+  "sorts": [
+    {
+      "key": "newest",
+      "label": "Curated Drops (Newest)",
+      "short": "Curated Drops"
+    },
+    {
+      "key": "price-asc",
+      "label": "Price: Low to High",
+      "short": "Price: Low to High"
+    },
+    {
+      "key": "price-desc",
+      "label": "Price: High to Low",
+      "short": "Price: High to Low"
+    },
+    {
+      "key": "demand",
+      "label": "Collector Demand",
+      "short": "Collector Demand"
+    }
+  ],
+  "sizes": [
+    "XS",
+    "S",
+    "M",
+    "L",
+    "XL",
+    "XXL"
+  ],
+  "sizeHint": "Boxy Drop fits recommend true-to-size",
+  "nextDrop": "Next Drop includes: 07-09 through 07-16 • Indigo Bath & Acid Monoliths",
+  "guarantee": {
+    "eyebrow": "The Kura Atelier Integrity Standard",
+    "title": "Lifetime Discharge Silkscreen Guarantee",
+    "body": "Water-based discharge printing extracts organic dyes instead of plastic coatings. Guaranteed to never crack or peel. Free lifetime studio exchange.",
+    "points": [
+      {
+        "title": "Double Rib Neckline",
+        "note": "Does not stretch or wave"
+      },
+      {
+        "title": "Pre-Shrunk Cold Cured",
+        "note": "Zero post-wash distortion"
+      }
+    ],
+    "cta": {
+      "label": "Read Fabric Notes",
+      "href": "/info/craft-and-cotton"
+    }
+  },
+  "archiveTotal": 24
+}

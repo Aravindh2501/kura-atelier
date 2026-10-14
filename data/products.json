@@ -1,0 +1,953 @@
+[
+  {
+    "slug": "kyoto-echo-graphic-tee",
+    "name": "Kyoto Echo Graphic Tee",
+    "price": 78,
+    "subtitle": "280 GSM Japanese Heavyweight",
+    "categories": [
+      "men",
+      "women",
+      "drops",
+      "unisex"
+    ],
+    "tag": "New",
+    "colors": [
+      {
+        "name": "Washed Carbon Black",
+        "hex": "#1A1A1A"
+      },
+      {
+        "name": "Vintage Ecru Bone",
+        "hex": "#E8E4DA"
+      },
+      {
+        "name": "Faded Terracotta",
+        "hex": "#C85A32"
+      },
+      {
+        "name": "Muted Moss Sage",
+        "hex": "#4E6B57"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "gallery": [
+      {
+        "label": "Angle 01 // Front Silhouette",
+        "title": "Boxy 2.5cm Drop-Shoulder"
+      },
+      {
+        "label": "Angle 02 // Primary Motif",
+        "title": "Discharge Infiltration Art"
+      },
+      {
+        "label": "Angle 03 // Textile Purity",
+        "title": "280 GSM Ring-Spun Texture"
+      },
+      {
+        "label": "Angle 04 // Pattern Matrix",
+        "title": "Cut No. 07-B Flat Lay"
+      }
+    ],
+    "details": [
+      {
+        "icon": "palette",
+        "title": "Discharge Infiltration Alchemy",
+        "body": "Water-based Japanese discharge extraction. Pigment replaces fabric dye without surface rubber for a soft, breathable hand-feel that never cracks."
+      },
+      {
+        "icon": "layers",
+        "title": "Fabric & Care",
+        "body": "100% GOTS Combed Ring-Spun Cotton. Machine wash cold, line dry in shade."
+      },
+      {
+        "icon": "straighten",
+        "title": "Fit & Sizing",
+        "body": "Generous boxy cut with 2.5cm drop shoulder. Fits true to size for relaxed fit."
+      }
+    ],
+    "sizeGuide": [
+      {
+        "size": "XS",
+        "chest": 54,
+        "length": 68,
+        "shoulder": 52,
+        "sleeve": 21
+      },
+      {
+        "size": "S",
+        "chest": 58,
+        "length": 71,
+        "shoulder": 55,
+        "sleeve": 22
+      },
+      {
+        "size": "M",
+        "chest": 62,
+        "length": 74,
+        "shoulder": 58,
+        "sleeve": 23
+      },
+      {
+        "size": "L",
+        "chest": 66,
+        "length": 77,
+        "shoulder": 61,
+        "sleeve": 24
+      },
+      {
+        "size": "XL",
+        "chest": 70,
+        "length": 80,
+        "shoulder": 64,
+        "sleeve": 25
+      },
+      {
+        "size": "XXL",
+        "chest": 74,
+        "length": 82,
+        "shoulder": 67,
+        "sleeve": 26
+      }
+    ],
+    "fitLabel": "Boxy Fit",
+    "fit": "Boxy Oversized",
+    "technique": "Multi-Pass",
+    "placement": "Oversized Back Graphic",
+    "badge": "New",
+    "badgeStyle": "primary",
+    "breadcrumb": "Kyoto Subterranean Echo Tee",
+    "gsm": 280
+  },
+  {
+    "slug": "soma-double-pleat-chino",
+    "name": "Soma Double-Pleat Chino",
+    "price": 135,
+    "subtitle": "340 GSM Japanese Twill",
+    "categories": [
+      "men",
+      "archive",
+      "unisex"
+    ],
+    "tag": "",
+    "colors": [
+      {
+        "name": "Washed Carbon Black",
+        "hex": "#1A1A1A"
+      },
+      {
+        "name": "Vintage Ecru Bone",
+        "hex": "#E8E4DA"
+      },
+      {
+        "name": "Faded Terracotta",
+        "hex": "#C85A32"
+      },
+      {
+        "name": "Muted Moss Sage",
+        "hex": "#4E6B57"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "gallery": [
+      {
+        "label": "Angle 01 // Front",
+        "title": "Soma Double-Pleat Chino"
+      }
+    ],
+    "details": [
+      {
+        "icon": "palette",
+        "title": "Discharge Infiltration Alchemy",
+        "body": "Water-based Japanese discharge extraction. Pigment replaces fabric dye without surface rubber for a soft, breathable hand-feel that never cracks."
+      },
+      {
+        "icon": "layers",
+        "title": "Fabric & Care",
+        "body": "100% GOTS Combed Ring-Spun Cotton. Machine wash cold, line dry in shade."
+      },
+      {
+        "icon": "straighten",
+        "title": "Fit & Sizing",
+        "body": "Generous boxy cut with 2.5cm drop shoulder. Fits true to size for relaxed fit."
+      }
+    ],
+    "sizeGuide": [
+      {
+        "size": "XS",
+        "chest": 54,
+        "length": 68,
+        "shoulder": 52,
+        "sleeve": 21
+      },
+      {
+        "size": "S",
+        "chest": 58,
+        "length": 71,
+        "shoulder": 55,
+        "sleeve": 22
+      },
+      {
+        "size": "M",
+        "chest": 62,
+        "length": 74,
+        "shoulder": 58,
+        "sleeve": 23
+      },
+      {
+        "size": "L",
+        "chest": 66,
+        "length": 77,
+        "shoulder": 61,
+        "sleeve": 24
+      },
+      {
+        "size": "XL",
+        "chest": 70,
+        "length": 80,
+        "shoulder": 64,
+        "sleeve": 25
+      },
+      {
+        "size": "XXL",
+        "chest": 74,
+        "length": 82,
+        "shoulder": 67,
+        "sleeve": 26
+      }
+    ],
+    "fitLabel": "Relaxed",
+    "fit": "Relaxed Drop-Shoulder",
+    "technique": "Prussian Dye",
+    "placement": "Minimal Chest Crest",
+    "badge": "",
+    "badgeStyle": "primary",
+    "gsm": 340
+  },
+  {
+    "slug": "kura-canvas-blouson",
+    "name": "Kura Canvas Blouson",
+    "price": 195,
+    "subtitle": "420 GSM Ring-Spun Canvas",
+    "categories": [
+      "men",
+      "women",
+      "drops",
+      "unisex"
+    ],
+    "tag": "Limited",
+    "colors": [
+      {
+        "name": "Washed Carbon Black",
+        "hex": "#1A1A1A"
+      },
+      {
+        "name": "Vintage Ecru Bone",
+        "hex": "#E8E4DA"
+      },
+      {
+        "name": "Faded Terracotta",
+        "hex": "#C85A32"
+      },
+      {
+        "name": "Muted Moss Sage",
+        "hex": "#4E6B57"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "gallery": [
+      {
+        "label": "Angle 01 // Front",
+        "title": "Kura Canvas Blouson"
+      }
+    ],
+    "details": [
+      {
+        "icon": "palette",
+        "title": "Discharge Infiltration Alchemy",
+        "body": "Water-based Japanese discharge extraction. Pigment replaces fabric dye without surface rubber for a soft, breathable hand-feel that never cracks."
+      },
+      {
+        "icon": "layers",
+        "title": "Fabric & Care",
+        "body": "100% GOTS Combed Ring-Spun Cotton. Machine wash cold, line dry in shade."
+      },
+      {
+        "icon": "straighten",
+        "title": "Fit & Sizing",
+        "body": "Generous boxy cut with 2.5cm drop shoulder. Fits true to size for relaxed fit."
+      }
+    ],
+    "sizeGuide": [
+      {
+        "size": "XS",
+        "chest": 54,
+        "length": 68,
+        "shoulder": 52,
+        "sleeve": 21
+      },
+      {
+        "size": "S",
+        "chest": 58,
+        "length": 71,
+        "shoulder": 55,
+        "sleeve": 22
+      },
+      {
+        "size": "M",
+        "chest": 62,
+        "length": 74,
+        "shoulder": 58,
+        "sleeve": 23
+      },
+      {
+        "size": "L",
+        "chest": 66,
+        "length": 77,
+        "shoulder": 61,
+        "sleeve": 24
+      },
+      {
+        "size": "XL",
+        "chest": 70,
+        "length": 80,
+        "shoulder": 64,
+        "sleeve": 25
+      },
+      {
+        "size": "XXL",
+        "chest": 74,
+        "length": 82,
+        "shoulder": 67,
+        "sleeve": 26
+      }
+    ],
+    "fitLabel": "Drop Shoulder",
+    "fit": "Relaxed Drop-Shoulder",
+    "technique": "High-Density Puff",
+    "placement": "All-Over Lithograph",
+    "badge": "Limited",
+    "badgeStyle": "primary",
+    "gsm": 420
+  },
+  {
+    "slug": "kamogawa-longsleeve",
+    "name": "Kamogawa Longsleeve",
+    "price": 92,
+    "subtitle": "300 GSM Heavyweight Rib",
+    "categories": [
+      "women",
+      "archive",
+      "unisex"
+    ],
+    "tag": "",
+    "colors": [
+      {
+        "name": "Washed Carbon Black",
+        "hex": "#1A1A1A"
+      },
+      {
+        "name": "Vintage Ecru Bone",
+        "hex": "#E8E4DA"
+      },
+      {
+        "name": "Faded Terracotta",
+        "hex": "#C85A32"
+      },
+      {
+        "name": "Muted Moss Sage",
+        "hex": "#4E6B57"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "gallery": [
+      {
+        "label": "Angle 01 // Front",
+        "title": "Kamogawa Longsleeve"
+      }
+    ],
+    "details": [
+      {
+        "icon": "palette",
+        "title": "Discharge Infiltration Alchemy",
+        "body": "Water-based Japanese discharge extraction. Pigment replaces fabric dye without surface rubber for a soft, breathable hand-feel that never cracks."
+      },
+      {
+        "icon": "layers",
+        "title": "Fabric & Care",
+        "body": "100% GOTS Combed Ring-Spun Cotton. Machine wash cold, line dry in shade."
+      },
+      {
+        "icon": "straighten",
+        "title": "Fit & Sizing",
+        "body": "Generous boxy cut with 2.5cm drop shoulder. Fits true to size for relaxed fit."
+      }
+    ],
+    "sizeGuide": [
+      {
+        "size": "XS",
+        "chest": 54,
+        "length": 68,
+        "shoulder": 52,
+        "sleeve": 21
+      },
+      {
+        "size": "S",
+        "chest": 58,
+        "length": 71,
+        "shoulder": 55,
+        "sleeve": 22
+      },
+      {
+        "size": "M",
+        "chest": 62,
+        "length": 74,
+        "shoulder": 58,
+        "sleeve": 23
+      },
+      {
+        "size": "L",
+        "chest": 66,
+        "length": 77,
+        "shoulder": 61,
+        "sleeve": 24
+      },
+      {
+        "size": "XL",
+        "chest": 70,
+        "length": 80,
+        "shoulder": 64,
+        "sleeve": 25
+      },
+      {
+        "size": "XXL",
+        "chest": 74,
+        "length": 82,
+        "shoulder": 67,
+        "sleeve": 26
+      }
+    ],
+    "fitLabel": "Relaxed",
+    "fit": "Relaxed Drop-Shoulder",
+    "technique": "Litho Monolith",
+    "placement": "Oversized Back Graphic",
+    "badge": "",
+    "badgeStyle": "primary",
+    "gsm": 300
+  },
+  {
+    "slug": "botanical-litho-no-04",
+    "name": "Botanical Litho No. 04",
+    "price": 74,
+    "subtitle": "Natural Ecru • Water-based Sepia",
+    "categories": [
+      "men",
+      "women",
+      "drops",
+      "edition",
+      "unisex"
+    ],
+    "tag": "Edition of 50",
+    "colors": [
+      {
+        "name": "Washed Carbon Black",
+        "hex": "#1A1A1A"
+      },
+      {
+        "name": "Vintage Ecru Bone",
+        "hex": "#E8E4DA"
+      },
+      {
+        "name": "Faded Terracotta",
+        "hex": "#C85A32"
+      },
+      {
+        "name": "Muted Moss Sage",
+        "hex": "#4E6B57"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "gallery": [
+      {
+        "label": "Angle 01 // Front",
+        "title": "Botanical Litho No. 04"
+      },
+      {
+        "label": "Angle 02 // Back",
+        "title": "Botanical Litho No. 04 back"
+      }
+    ],
+    "details": [
+      {
+        "icon": "palette",
+        "title": "Discharge Infiltration Alchemy",
+        "body": "Water-based Japanese discharge extraction. Pigment replaces fabric dye without surface rubber for a soft, breathable hand-feel that never cracks."
+      },
+      {
+        "icon": "layers",
+        "title": "Fabric & Care",
+        "body": "100% GOTS Combed Ring-Spun Cotton. Machine wash cold, line dry in shade."
+      },
+      {
+        "icon": "straighten",
+        "title": "Fit & Sizing",
+        "body": "Generous boxy cut with 2.5cm drop shoulder. Fits true to size for relaxed fit."
+      }
+    ],
+    "sizeGuide": [
+      {
+        "size": "XS",
+        "chest": 54,
+        "length": 68,
+        "shoulder": 52,
+        "sleeve": 21
+      },
+      {
+        "size": "S",
+        "chest": 58,
+        "length": 71,
+        "shoulder": 55,
+        "sleeve": 22
+      },
+      {
+        "size": "M",
+        "chest": 62,
+        "length": 74,
+        "shoulder": 58,
+        "sleeve": 23
+      },
+      {
+        "size": "L",
+        "chest": 66,
+        "length": 77,
+        "shoulder": 61,
+        "sleeve": 24
+      },
+      {
+        "size": "XL",
+        "chest": 70,
+        "length": 80,
+        "shoulder": 64,
+        "sleeve": 25
+      },
+      {
+        "size": "XXL",
+        "chest": 74,
+        "length": 82,
+        "shoulder": 67,
+        "sleeve": 26
+      }
+    ],
+    "edition": {
+      "badge": "Edition of 50",
+      "cut": 0
+    },
+    "fitLabel": "Oversized",
+    "fit": "Boxy Oversized",
+    "technique": "Woodblock",
+    "placement": "Minimal Chest Crest",
+    "badge": "Edition of 50",
+    "badgeStyle": "primary",
+    "gsm": 280
+  },
+  {
+    "slug": "architectural-monolith",
+    "name": "Architectural Monolith",
+    "price": 84,
+    "subtitle": "Carbon Black • Chalk White",
+    "categories": [
+      "men",
+      "women",
+      "drops",
+      "edition",
+      "unisex"
+    ],
+    "tag": "Edition of 50",
+    "colors": [
+      {
+        "name": "Washed Carbon Black",
+        "hex": "#1A1A1A"
+      },
+      {
+        "name": "Vintage Ecru Bone",
+        "hex": "#E8E4DA"
+      },
+      {
+        "name": "Faded Terracotta",
+        "hex": "#C85A32"
+      },
+      {
+        "name": "Muted Moss Sage",
+        "hex": "#4E6B57"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "gallery": [
+      {
+        "label": "Angle 01 // Front",
+        "title": "Architectural Monolith"
+      },
+      {
+        "label": "Angle 02 // Back",
+        "title": "Architectural Monolith back"
+      }
+    ],
+    "details": [
+      {
+        "icon": "palette",
+        "title": "Discharge Infiltration Alchemy",
+        "body": "Water-based Japanese discharge extraction. Pigment replaces fabric dye without surface rubber for a soft, breathable hand-feel that never cracks."
+      },
+      {
+        "icon": "layers",
+        "title": "Fabric & Care",
+        "body": "100% GOTS Combed Ring-Spun Cotton. Machine wash cold, line dry in shade."
+      },
+      {
+        "icon": "straighten",
+        "title": "Fit & Sizing",
+        "body": "Generous boxy cut with 2.5cm drop shoulder. Fits true to size for relaxed fit."
+      }
+    ],
+    "sizeGuide": [
+      {
+        "size": "XS",
+        "chest": 54,
+        "length": 68,
+        "shoulder": 52,
+        "sleeve": 21
+      },
+      {
+        "size": "S",
+        "chest": 58,
+        "length": 71,
+        "shoulder": 55,
+        "sleeve": 22
+      },
+      {
+        "size": "M",
+        "chest": 62,
+        "length": 74,
+        "shoulder": 58,
+        "sleeve": 23
+      },
+      {
+        "size": "L",
+        "chest": 66,
+        "length": 77,
+        "shoulder": 61,
+        "sleeve": 24
+      },
+      {
+        "size": "XL",
+        "chest": 70,
+        "length": 80,
+        "shoulder": 64,
+        "sleeve": 25
+      },
+      {
+        "size": "XXL",
+        "chest": 74,
+        "length": 82,
+        "shoulder": 67,
+        "sleeve": 26
+      }
+    ],
+    "edition": {
+      "badge": "Edition of 50",
+      "cut": 0
+    },
+    "fitLabel": "Men's Fit",
+    "fit": "Classic Vintage",
+    "technique": "Ochre Seam",
+    "placement": "All-Over Lithograph",
+    "badge": "Edition of 50",
+    "badgeStyle": "primary",
+    "gsm": 280
+  },
+  {
+    "slug": "kyoto-echo-tee",
+    "name": "Kyoto Echo Tee",
+    "price": 78,
+    "subtitle": "Washed Charcoal • Subtractive",
+    "categories": [
+      "men",
+      "women",
+      "drops",
+      "edition",
+      "unisex"
+    ],
+    "tag": "Archive Classic",
+    "colors": [
+      {
+        "name": "Washed Carbon Black",
+        "hex": "#1A1A1A"
+      },
+      {
+        "name": "Vintage Ecru Bone",
+        "hex": "#E8E4DA"
+      },
+      {
+        "name": "Faded Terracotta",
+        "hex": "#C85A32"
+      },
+      {
+        "name": "Muted Moss Sage",
+        "hex": "#4E6B57"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "gallery": [
+      {
+        "label": "Angle 01 // Front",
+        "title": "Kyoto Echo Tee"
+      },
+      {
+        "label": "Angle 02 // Back",
+        "title": "Kyoto Echo Tee back"
+      }
+    ],
+    "details": [
+      {
+        "icon": "palette",
+        "title": "Discharge Infiltration Alchemy",
+        "body": "Water-based Japanese discharge extraction. Pigment replaces fabric dye without surface rubber for a soft, breathable hand-feel that never cracks."
+      },
+      {
+        "icon": "layers",
+        "title": "Fabric & Care",
+        "body": "100% GOTS Combed Ring-Spun Cotton. Machine wash cold, line dry in shade."
+      },
+      {
+        "icon": "straighten",
+        "title": "Fit & Sizing",
+        "body": "Generous boxy cut with 2.5cm drop shoulder. Fits true to size for relaxed fit."
+      }
+    ],
+    "sizeGuide": [
+      {
+        "size": "XS",
+        "chest": 54,
+        "length": 68,
+        "shoulder": 52,
+        "sleeve": 21
+      },
+      {
+        "size": "S",
+        "chest": 58,
+        "length": 71,
+        "shoulder": 55,
+        "sleeve": 22
+      },
+      {
+        "size": "M",
+        "chest": 62,
+        "length": 74,
+        "shoulder": 58,
+        "sleeve": 23
+      },
+      {
+        "size": "L",
+        "chest": 66,
+        "length": 77,
+        "shoulder": 61,
+        "sleeve": 24
+      },
+      {
+        "size": "XL",
+        "chest": 70,
+        "length": 80,
+        "shoulder": 64,
+        "sleeve": 25
+      },
+      {
+        "size": "XXL",
+        "chest": 74,
+        "length": 82,
+        "shoulder": 67,
+        "sleeve": 26
+      }
+    ],
+    "edition": {
+      "badge": "Archive Classic",
+      "cut": 0
+    },
+    "fitLabel": "Vintage Wash",
+    "fit": "Classic Vintage",
+    "technique": "Enzyme Bath",
+    "placement": "Oversized Back Graphic",
+    "badge": "Archive Classic",
+    "badgeStyle": "primary",
+    "gsm": 280
+  },
+  {
+    "slug": "terrazzo-sun-fade",
+    "name": "Terrazzo Sun-Fade",
+    "price": 78,
+    "subtitle": "Ochre Pigment • Hand Pulled",
+    "categories": [
+      "men",
+      "women",
+      "drops",
+      "edition",
+      "unisex"
+    ],
+    "tag": "Edition of 50",
+    "colors": [
+      {
+        "name": "Washed Carbon Black",
+        "hex": "#1A1A1A"
+      },
+      {
+        "name": "Vintage Ecru Bone",
+        "hex": "#E8E4DA"
+      },
+      {
+        "name": "Faded Terracotta",
+        "hex": "#C85A32"
+      },
+      {
+        "name": "Muted Moss Sage",
+        "hex": "#4E6B57"
+      }
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "gallery": [
+      {
+        "label": "Angle 01 // Front",
+        "title": "Terrazzo Sun-Fade"
+      },
+      {
+        "label": "Angle 02 // Back",
+        "title": "Terrazzo Sun-Fade back"
+      }
+    ],
+    "details": [
+      {
+        "icon": "palette",
+        "title": "Discharge Infiltration Alchemy",
+        "body": "Water-based Japanese discharge extraction. Pigment replaces fabric dye without surface rubber for a soft, breathable hand-feel that never cracks."
+      },
+      {
+        "icon": "layers",
+        "title": "Fabric & Care",
+        "body": "100% GOTS Combed Ring-Spun Cotton. Machine wash cold, line dry in shade."
+      },
+      {
+        "icon": "straighten",
+        "title": "Fit & Sizing",
+        "body": "Generous boxy cut with 2.5cm drop shoulder. Fits true to size for relaxed fit."
+      }
+    ],
+    "sizeGuide": [
+      {
+        "size": "XS",
+        "chest": 54,
+        "length": 68,
+        "shoulder": 52,
+        "sleeve": 21
+      },
+      {
+        "size": "S",
+        "chest": 58,
+        "length": 71,
+        "shoulder": 55,
+        "sleeve": 22
+      },
+      {
+        "size": "M",
+        "chest": 62,
+        "length": 74,
+        "shoulder": 58,
+        "sleeve": 23
+      },
+      {
+        "size": "L",
+        "chest": 66,
+        "length": 77,
+        "shoulder": 61,
+        "sleeve": 24
+      },
+      {
+        "size": "XL",
+        "chest": 70,
+        "length": 80,
+        "shoulder": 64,
+        "sleeve": 25
+      },
+      {
+        "size": "XXL",
+        "chest": 74,
+        "length": 82,
+        "shoulder": 67,
+        "sleeve": 26
+      }
+    ],
+    "edition": {
+      "badge": "Edition of 50",
+      "cut": 0
+    },
+    "fitLabel": "Oversized",
+    "fit": "Boxy Oversized",
+    "technique": "Mineral Ink",
+    "placement": "Minimal Chest Crest",
+    "badge": "Edition of 50",
+    "badgeStyle": "primary",
+    "gsm": 280
+  }
+]

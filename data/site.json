@@ -1,0 +1,116 @@
+{
+  "name": "KURA ATELIER",
+  "shortName": "Kura Atelier",
+  "description": "Heavyweight Japanese cotton, discharge-printed in small batches.",
+  "currency": {
+    "code": "USD",
+    "symbol": "$",
+    "locale": "en-US"
+  },
+  "shipping": {
+    "freeOver": 120,
+    "flat": 12,
+    "countries": [
+      "India",
+      "Japan",
+      "France",
+      "United Kingdom",
+      "United States",
+      "Singapore",
+      "Australia",
+      "Germany"
+    ]
+  },
+  "orders": {
+    "idPrefix": "KUR",
+    "maxQtyPerLine": 10
+  },
+  "pageSize": 8,
+  "announcement": {
+    "badge": "EDITION 07",
+    "text": "DROP 07: ARCHIVAL BOTANICAL & BRUTALIST GRAPHICS — COMPLIMENTARY WORLDWIDE DELIVERY OVER $120"
+  },
+  "nav": [
+    {
+      "label": "Shop",
+      "href": "/shop/all"
+    },
+    {
+      "label": "Men",
+      "href": "/shop/men"
+    },
+    {
+      "label": "Women",
+      "href": "/shop/women"
+    }
+  ],
+  "footer": {
+    "newsletterTitle": "Kura Atelier Archive Notice",
+    "newsletterBody": "Subscribe to receive early dispatch codes for private collection debuts, limited 50-piece silk-screen editions, and fabric provenance field notes.",
+    "promise": "100% Organic Combed Japanese Ring-Spun Cotton Promise",
+    "studiosTitle": "Ateliers & Plinths",
+    "studios": [
+      {
+        "name": "Aoyama Studio",
+        "address": "Minato City, Tokyo 107-0062"
+      },
+      {
+        "name": "Le Marais Studio",
+        "address": "75003 Paris, France"
+      },
+      {
+        "name": "Shoreditch Vault",
+        "address": "Redchurch St, London E2 7DJ"
+      }
+    ],
+    "columns": [
+      {
+        "title": "Specifications",
+        "links": [
+          {
+            "label": "280 GSM Standard",
+            "href": "/info/craft-and-cotton"
+          },
+          {
+            "label": "Silhouette & Size Guide",
+            "href": "/info/size-guide"
+          },
+          {
+            "label": "Discharge Print Longevity",
+            "href": "/info/garment-care"
+          },
+          {
+            "label": "Cotton Provenance",
+            "href": "/info/provenance"
+          }
+        ]
+      },
+      {
+        "title": "Client Service",
+        "links": [
+          {
+            "label": "Complimentary Worldwide Delivery",
+            "href": "/info/shipping-and-returns"
+          },
+          {
+            "label": "Archival Tracking",
+            "href": "/track"
+          },
+          {
+            "label": "Terms of Acquisition",
+            "href": "/info/terms"
+          },
+          {
+            "label": "Data Dignity Policy",
+            "href": "/info/privacy-notice"
+          }
+        ]
+      }
+    ],
+    "legal": "© 2025 KURA ATELIER CO., LTD. ALL SILHOUETTES & PRINTS RESERVED.",
+    "tags": [
+      "DISCHARGE SILK-SCREENING",
+      "TOKYO / PARIS / LONDON"
+    ]
+  }
+}

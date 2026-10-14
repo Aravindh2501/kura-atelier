@@ -1,0 +1,78 @@
+// ---------------------------------------------------------------------------
+// media.jsonc  -  EVERY image URL used by the storefront lives in this file.
+// Nothing else in the code base contains an image URL.
+//
+// When the real API is ready, replace the reader in lib/media.ts with a fetch()
+// and keep the same shape. Pages never read this file directly.
+// ---------------------------------------------------------------------------
+{
+  // Header + footer logo
+  "brand": {
+    "logo": "https://lh3.googleusercontent.com/aida/AEtjO1XDe_b0vt0rqNCvrWGVKqg5vTZm9c9ZPswm5ydNf796IA-u-sO32GdIUliI-IeRhXkwAFp_ZONu7uVKhqFzmuRjJzAQ4UtcjszmgFXzbF4RvTuAqxCqgWofKTnsZM9PiA86Jw0p6bM0aIN5-2c1FMBJljy9zy_60GMQFP8ZGC5obg6lkOvy4O1xqOR7OIYnXHOzU6GRI4YO51C19kq_uPa1V6198ZG8-cAtGw_ZdwEi"
+  },
+
+  // Home page
+  "home": {
+    // Hero collage: main = big model shot, macro = fabric close-up, botanical = small women's shot
+    "hero": {
+      "main": "https://lh3.googleusercontent.com/aida-public/AB6AXuDr3ofEGWPJ9qvQRWDb49J0UdS-ixwDcPLfE3Fh4xeOUb2xHRBxihUMPpNiXwWqFu47Og-W2hTQixj1U_Jz-G7MxKxBYuxF7Y0dqpz0Z4kSsSa3REm3_o059dJm-9V4wcr52V0ToU0iQgPNj3kn-adcmdLUrj0mTcvj_IIwvxIYsNUBWJ3GuUzCZGEbD-K60lUBftCK03d33kbhIIWAOkISgqWQtLAEdsbzckBemh3B",
+      "macro": "https://lh3.googleusercontent.com/aida-public/AB6AXuA6n9gNnm2BnLvG6T7L4dvoeATzLpN5DCqRq2NQkKJbjmssvdqX66zpy7635xZfYzsmErW12KD81jECh6Xys9QoXhdeltGrY8BbjOY6e8aVZoicLB1YCVnu_Dt0UDr3nmW02gEtdi6-jpd4EnYpOjfX2U8f8SAhjVQXcq0Bakt1wDiri7Gmy0rpyh7H4B1FrziPWsJys13C_9qSjDfcUJTLVYASTwoe2B1aMWWVFHQM",
+      "botanical": "https://lh3.googleusercontent.com/aida-public/AB6AXuBkxQt0mvlNLjz8vEsJv4Iqchdn3IMAhy3PIVMp_tjYI6Uds7Ed1wXSOW9iKpZaguXxdTfLfs5IjaQeOBo8TwAAMfPzd0Rj4D7FnmhT_1KgLUmjMdx2zb8nomnZxMAegccAUvIPWqHPlEzQONCwvVkNlH-OiNIT2c16ooA3tA774Qn1_ZX8CBrDMkCYZBN8qAP4hlxZUHzOWADNPzNzsFTW6nlvg2N_oPCM4bFguxmZ"
+    },
+    // Men / Women portal cards
+    "portals": {
+      "men": "https://lh3.googleusercontent.com/aida-public/AB6AXuA1sJYjqipry3bDGsMMwXM-IZ0gjYZss2cPwwHGo3AJDJHT6g0KZ3NtRNj4eJyLZFthIAQFMggF2ccKoWW7wkRePMlVh58LQQa7afiNZVqGaqV0zFduPZ3ckHMKXoEXMMTz4Pc425_fKZl5m1Wks-Gsv0NKWJlatvH7dJGE859Og2nISt0wW73cxJW4u-2VGnPNLcPlzAQLDIlVlspxpVnv6DPuYFv9ouYiE2WtZ--v",
+      "women": "https://lh3.googleusercontent.com/aida-public/AB6AXuCmwIV3Xvp8jXBmG1u6jr9Evh8EOs7gXmaJR8doaYejFf3jncOvfnbHNea0PvhW6Kq1ooNbohoH_xQAzE-g_g9MJOnSu5doWuXddaNoJQQdkuG6kck4DLcOhjBKYQplN8hRGcTUpkkJ8BD1KibI47-LrebmPvxu5aXJCIjusAj2CtF54xAznDajpYUZUFzuwLNCfnDKA7orNuFRGHbPqMiDddawnrg4wWhZCLI4rW3-"
+    },
+    // Field lookbook (three images, left to right)
+    "lookbook": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuCvSTmf_HdriMIcJXCXV9fh6lW2Z_kPyzU-KRJxgAGgZXVZs_I-ZKBTc3f19Bs5iqXrYPPFE1VlmizuDheALTBIyHprM_RYTtK_ECMPJfxWgeKGVbFwTfh0RCyBwZoEihIOvxAZTiFpC1AKX3CiMVX4RPBrcJzrzDE6PZviPAHth-AuOeUcQCnEmWXNYRIYQI1n6DoHgwcEs6nYuIpNk2wtctDKPJ-Eb-8cnLo7aMXH",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuAEULzrxqRN2b6-MUOIgm9FuexG_FaIiPOhOSSfF5MuBcM7cC656cJtwwWLIeKhUbVNXmKSpIFp8I6rk02sb021OC_1KAI91FLzAkWlqClj72hg3D9qKPCjQzSrysJkGUB7kM2aSfs6oLMPbA5nI7sojS6o5CZdiJfNDH7QEMlKWEB6xIxg7EkMFqBbMnFmtGcJdjcAn_I15ZNRvm-yc1xshSMOwz-bsQlmCCh1HFyC",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDK0XaHR6wom63QmBlVP60kvu6QDjG9C_jNniMDJerxii_wjBG73t8MoKRXGt-yldkOverxNPjKe1WA8g5_7ZXnTsbSID_QPM4UNgh_zcDcZYYfIb4Ya40uAmP3Tppe1rtOHQK8Cr-f7UaLAx7z_iKzHmh71Q9mSIA-LtxU5-eYsohc5M0JTrENaLsdmUMFmfCNFNSQ-Njq0VtDuIFZgr73XiY_tBoVp1AtD6aZGAhT"
+    ]
+  },
+
+  // Product galleries, keyed by product slug.
+  // Index 0 = front, 1 = back / primary motif, 2 = fabric macro, 3 = flat lay.
+  "products": {
+    // Kyoto Echo Graphic Tee
+    "kyoto-echo-graphic-tee": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDMDz4mVXz_0H-NS6DWs78RV24-Lo_VErptI0du9GHWMBStJU3svFKCvUSySwU1A1PudZd8NekkcCYJqHzjQ5NEEDAlz1CJqAEGR1Smys6PGvGkLKyYpdavoeT-twYKhPz53HdKmbUU-jeAtsi4TOcLy7tjYjsLwkhGtOlDDrN0TfyCxRB1nB8slxxnTA93DKX5okpLm44xDEPtszikyS1c6PJoZ3I_m1jRODdFcSfv",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuANNnga7zcWmJg1OkdvcH_slT_qVPVOoJrEBtQ2wVttMtrZfdiaIPGv6hFBJrLdPjkppUrLnMP2fGMrCCAiG9Lk7gotEWLzGujZZB1leDPkk_iKGQq922fiOW-LGl25JtsJWFrpxdc95Q9YQjbVB7lSc6_DNGxwzj8s9zwzlK0PCNHl0r1qOwiPmICazZ3k7e0gwakB6t-X9v45pIS6vhbvMhtI0AOqk9hraaLTRber",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuAz6P4UKDNnbeM2dEBDbFJs-QA3c7x4l77CJet6Z_jTwQ8559o2g_PJpt45b-QGdsJSItRGRFVpQDAL47cDBDZ1QSDSdnEQVppNcPP3AmXpycrCN7W8WBIcP-PpcgTcrdf1wZsNFJ8RY1h3DrMjQxhswvHFQSHVWKqsMeGU_SHEWNGT0obA-0NiWg-wFbWO6I5ZUQKsX6O78hRLNqc2JMoj-AeOlUzRUx_dxobzVYmj",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuAgqVC2fpwWj89-PmSuatcapLDmiAw6aRCvrHy2HdmLgarNapHI_-xGfGY1dyKCVHUVt56zORdxTppPg4qFzQiPg3GgY3PY_3GLv_gn5kPd7G_CB7wM46-i8OLEZ-xQOLSN2s_pkPTEDrcE6Jt03VtjRhz6fgwZ5XhjfAiPqFxJk0UT8BdFUXKx7yRxAkdpB_6yWpO85zV0B7MOQ7x2ntlJRBuI-PIiovf_WczqsaFi"
+    ],
+    // Soma Double-Pleat Chino
+    "soma-double-pleat-chino": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuAmBqWtPgBCSqj7-irIohO4PNiKUow2NjHQrsLXORyrsXsA5djIsRXyVphGOEMNp9NmeEj-FwAgYkVF7DYkzbZdb0UgI_u69Zx8lvInMV6lmHlyKgEH-8Y4ZK27ls9ogPwm4nVxNM3AMQlUYfwZ3GztrX4COlGLeuVSW5XU0eBujpY-gt_d76OeXQgspgdT9RPVLgdFfyER_zagz57JCzmyxw74w-_2w_1grgxvxEH_"
+    ],
+    // Kura Canvas Blouson
+    "kura-canvas-blouson": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuB--GOsWmI4QCzhlu5pMRHLBxSqN1gJ6DOzgdeZIsMofacQMDj0ObZD4QR5Meeb0TKrtoaEqrNIDjMamM6mAD77Sup5v92YLDSmk1q88Jl7CJT-BeaF08dXZF8K7Ak8c4srQzmXd9Vufu4ZBheDq5gMailMZZkiuEjB5OIg2gfOvR2x0yWqpu1-C_-le2MwyNsSgqGgQbfcKn2h_6k-t1k3mBG7sSQsBRViKvXx4uDi"
+    ],
+    // Kamogawa Longsleeve
+    "kamogawa-longsleeve": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuA3y8a_qQNDG9_Umv4zlF5K0ibrS1aAqzYvRZ_yk6g8SMUPK2VLRwrUudXjH3yE5cdTJQKNu2ohXvrqWzo0UUzC_6RXLMeyY43dWQhTcAW2J8tdcKUqK6ZTzSul0SBdxtznitznc1ftfBosfJ2nVU3Ui-UjBsRSkvmgcEnvUipRtwxlU1NOtBNwbl5FOPI0ei-gy1ugPKeDsmKnMV98uiFL5aSGoRE4vYBMYYViL9GE"
+    ],
+    // Botanical Litho No. 04
+    "botanical-litho-no-04": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuD-EiyMhW5LZvbw5ejNb-dFRHcl-0kzmUx1x19n7MbfMrq74dC4koXm3se1ogTMPo2zcGHIRuMsN9SXx5SO8V-iI-S-AZBNz9Uiev6r0EmxliK6u7QzqRMmF2eYVY7mAdACi-wfM07VzPc7oxzUbYghHe-Gpfa_Y1wWOEmxRoXoVFhlSIjOWlXi8AOQfhZ2RAktfoGvZ348m3dI3HrrwFs7OyMeqcWJvgHx5d9C9c0a",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuAUbNieEBFh6YRmluZ0XJ5vutgY8zo2hONEsri2gd2n1n2ovM9DVRTNro4c1nBwunwXViJWr3-7sQ-nqLKDeMAfgItxqOh5-N6v2O5ruNLotr6B2GEQFZebAZsBMXCdq1mPmsNGsgqOflHqNuZ9It1-1IB0jSf6DBk6UtbgiwYrp8DjcCYG6Ih0O9bevdejLrrdm1zhyky9uHMwdQBIcIesLr__874Jm4YIO5xsWJYA"
+    ],
+    // Architectural Monolith
+    "architectural-monolith": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuBpJCfa6wZwq9nZEHkZdu_mezIG-4kZ81z-GzvtAlYKU_rT5jYO2hvsIQbd6hOnWJwThedWpT2YyO_43IJ5PgEvVFp8Muh2aBhZq-CC0rg7BFeWOhipVgAWHZ87R684lRTZ0a2w_CFzJZfxqaiQ1v2M2goyrK8RcfEiCG8IC5kjR8ADPR76Ua_rPGMxIw9fWXQxSBcZukpqn7FOwriJ3nhwZ0nrqvX6dC64Xwi9Ea_Q",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDDuZpjFYNIqovFQrhLgPWSjwGXxf9URk7aKkiCp2Jdo0QpKwwePiQQv6Bqn_ULoWy1R6f1jTHPxlE33Q2_0zVhjwzsA9sDh4gKlkMuOf-WCG3HGiNpP2bgZXa9Lnt7mrofbIedXEd-cf3HStgW93XhSO37qVCfY3zPUeH4aIlA30f5mu8GGnz7KegIaYfyiWI9xfOj2zZyJrAXoGZuvEUSeu4VNzp4PgM3KSIOpxbc"
+    ],
+    // Kyoto Echo Tee
+    "kyoto-echo-tee": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuCbX69QHr9UcGsksmTkqtoL8jqGG4qNIvwg4YuwXCfOqAm-nQL4xteBLOYDA4vVME8PjBtYHnrTIXfTW6NWz5O40K0auu1ssRVgfdIfzvNg8r6kVlMqcsR1BvalxVNCu6eRGubKWafZiCVQG17IlJOMVGhov7MXz32td08Tj6bFwBE7QJCdyv8pqfkagcxhl39_3zkpIv599EAJk7jBUsDZVPmJLDm3Vm-GtwzJWWub",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuCWJtTKrYH2QBdCt4s4uxsGN0QRca72x01qMpVTnVTyHXu6kD2WiTV-qA_xzXepFlUHbF0hbyzYMMrYHXIt7Bu0_JmESxlK1pvFqTyNeRDsxASId1ADcPfOFJi6_oWzETuRAEAR1DUVZ9C-Wxnowa3S547ouFWxYKpzOS7MZBpuU2Zyd9QSdGj7ox9qGGQ4e2clk0by3cPd4dBZF9EOJNxeBitSQ7UPHBtsiHDRIA39"
+    ],
+    // Terrazzo Sun-Fade
+    "terrazzo-sun-fade": [
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuDAi7k0Mdy3YLkVBWQC7FIKLFxt_bdveFDtmrANW1zUXSQNo82eH1i7pI2JRuRpEQFlkje40OONd1NB9qhLMOqaGkKDobMCrRHW_qAYORRPUlGeI2OkTXSRyo9UgCFzgY6VQyst7K4sBE8v-XRWFzQjt9XPjhZoKQZe9YfGcKTNeo9j_WzSGXfyjpD16Dw_QFyrOCx4Eaa0hzPqRiDZeCEUn9hDfqrv6LHVFdQZyWf8",
+      "https://lh3.googleusercontent.com/aida-public/AB6AXuAFIbG0J11Ovlr_9bEbDVtVOzJttG3kKmCaIaBDk7OJkl-q98LXc3ml6DhsIgji5XFns_KHn_0H3hTpXhCkXW-nA0FGrCbC05lwoRupAw0ZrlEtUWXfhxzRBCf5_ZW1WnTol213yQaiFsa718DM5uC4UBEm-EecQLykT_UfIn4Pkkj1ct2alsdk23ZBGux6HwWPhKeb1xa87SoDEtspct2Fzbhswi_98tAv7kjS5dtu"
+    ]
+  }
+}
