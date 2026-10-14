@@ -2,8 +2,6 @@ import { NextResponse } from "next/server";
 import { orders, payments } from "@/lib/commerce";
 import { toMinorUnits } from "@/modules/payments/server";
 
-export const runtime = "nodejs";
-export const dynamic = "force-dynamic";
 
 /**
  * Server-to-server confirmation (Razorpay Dashboard → Webhooks → https://YOUR-DOMAIN/api/payments/webhook/razorpay).

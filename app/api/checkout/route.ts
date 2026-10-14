@@ -3,8 +3,6 @@ import { currency, orders, payments, priceCart, startPaymentForOrder } from "@/l
 import { parseAddress, parseCustomer } from "@/modules/orders";
 import site from "@/data/site.json";
 
-export const runtime = "nodejs";
-export const dynamic = "force-dynamic";
 
 /** Validates the bag + details, creates the order, and opens the payment session. */
 export async function POST(req: Request) {

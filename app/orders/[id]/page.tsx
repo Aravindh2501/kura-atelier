@@ -1,56 +1,71 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import Link from "next/link";
-import { notFound } from "next/navigation";
-import { Button } from "@/components/ui/button";
-import { Icon } from "@/components/ui/icon";
-import { OrderDetails } from "@/components/orders/order-details";
-import { RetryPayment } from "@/components/orders/retry-payment";
-import { orders } from "@/lib/commerce";
-import { toPublicOrder } from "@/modules/orders/server";
 
-export const metadata: Metadata = { title: "Your order", robots: { index: false } };
-export const dynamic = "force-dynamic";
+export const metadata: Metadata = { title: "Order", robots: { index: false } };
 
-type Props = { params: Promise<{ id: string }>; searchParams: Promise<{ t?: string; payment?: string }> };
+// TEMPLATE: sample order data. Replace with a real database lookup when one is connected.
+const SAMPLE_ORDER = {
+  status: "Confirmed",
+  placedOn: "12 Oct 2026",
+  items: [
+    { name: "Sample Graphic Tee", size: "M", color: "Bone / Ecru", qty: 1, price: 2499 },
+    { name: "Sample Archive Tee", size: "L", color: "Carbon Washed Black", qty: 2, price: 2799 },
+  ],
+  shipping: 0,
+};
 
-export default async function OrderPage({ params, searchParams }: Props) {
-  const [{ id }, { t, payment }] = await Promise.all([params, searchParams]);
-  const order = await orders.getForBuyer(id, { token: t });
-  if (!order) notFound(); // wrong id or missing/incorrect secret link
-
-  const unpaid = order.status === "pending_payment";
-  const note = unpaid
-    ? payment === "cancelled" ? "The payment window was closed. Your order is saved – complete the payment below."
-      : payment === "failed" ? "The payment did not go through. You can try again below."
-      : "We are waiting for your payment to be confirmed."
-    : null;
+// params is read inside <Suspense>, as Cache Components requires.
+async function OrderContent({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  const subtotal = SAMPLE_ORDER.items.reduce((sum, i) => sum + i.price * i.qty, 0);
+  const total = subtotal + SAMPLE_ORDER.shipping;
+  const fmt = (n: number) => "₹" + n.toLocaleString("en-IN");
 
   return (
-    <div className="w-full px-margin-mobile lg:px-margin mx-auto py-space-md flex flex-col gap-space-lg">
-      <div className="flex flex-col gap-space-xs">
-        <span className="inline-flex items-center gap-2 font-label-md text-label-md uppercase tracking-widest text-secondary font-bold">
-          <Icon name={unpaid ? "receipt" : "check_circle"} size={16} />
-          {unpaid ? "Order saved" : "Order confirmed"}
+    <div className="flex flex-col gap-space-md">
+      <div className="flex flex-col gap-1">
+        <span className="font-label-md text-label-md uppercase tracking-widest text-secondary font-bold">
+          {SAMPLE_ORDER.status} · {SAMPLE_ORDER.placedOn}
         </span>
-        <h1 className="font-headline-lg text-headline-lg text-primary font-bold">Thank you, {order.customer.name.split(" ")[0]}.</h1>
+        <h1 className="font-headline-lg text-headline-lg text-primary font-bold">Order {id}</h1>
         <p className="font-body-md text-body-md text-on-surface-variant">
-          Order <strong className="text-primary">{order.id}</strong> placed with {order.customer.email}. Bookmark this page, or use{" "}
-          <Link href="/track" className="underline underline-offset-4 text-primary">order tracking</Link> with your order number and email.
+          Sample order shown for template purposes. Real order data will appear here once a database is connected.
         </p>
       </div>
 
-      {unpaid && (
-        <div className="bg-surface-container rounded-lg p-space-md flex flex-col gap-space-sm">
-          <p className="font-body-md text-body-md text-on-surface">{note}</p>
-          {order.payment.method !== "cod" && t && <RetryPayment orderId={order.id} token={t} />}
-        </div>
-      )}
+      <ul className="flex flex-col gap-space-sm">
+        {SAMPLE_ORDER.items.map((i) => (
+          <li key={i.name} className="flex items-center justify-between bg-surface-container-low rounded-2xl p-space-sm">
+            <div className="flex flex-col">
+              <span className="font-label-md text-label-md uppercase text-primary font-bold">{i.name}</span>
+              <span className="font-body-sm text-body-sm text-on-surface-variant">
+                {i.color} · {i.size} · Qty {i.qty}
+              </span>
+            </div>
+            <span className="font-label-md text-label-md text-primary font-bold">{fmt(i.price * i.qty)}</span>
+          </li>
+        ))}
+      </ul>
 
-      <OrderDetails order={toPublicOrder(order)} />
+      <div className="flex items-center justify-between border-t border-outline-variant/40 pt-space-sm">
+        <span className="font-label-md text-label-md uppercase text-on-surface-variant">Total</span>
+        <span className="font-headline-sm text-headline-sm text-primary font-bold">{fmt(total)}</span>
+      </div>
 
-      <Button asChild variant="secondary" className="self-start px-space-lg font-label-md text-label-md uppercase">
-        <Link href="/shop/all">Continue browsing</Link>
-      </Button>
+      <Link href="/shop/all" className="font-label-md text-label-md uppercase underline underline-offset-4 text-primary">
+        Continue shopping
+      </Link>
+    </div>
+  );
+}
+
+export default function OrderPage({ params }: { params: Promise<{ id: string }> }) {
+  return (
+    <div className="w-full px-margin-mobile lg:px-margin mx-auto py-space-md">
+      <Suspense fallback={<div className="min-h-[400px]" />}>
+        <OrderContent params={params} />
+      </Suspense>
     </div>
   );
 }

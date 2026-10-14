@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import { Suspense } from "react";
 import { Plus_Jakarta_Sans, Space_Grotesk, Syne } from "next/font/google";
 import "./globals.css";
 import { BagDrawer } from "@/components/bag-drawer";
@@ -31,7 +32,10 @@ export default async function RootLayout({ children }: { children: React.ReactNo
             <a href="#content" className="sr-only focus:not-sr-only focus:fixed focus:top-2 focus:left-2 focus:z-[100] focus:bg-primary focus:text-on-primary focus:px-4 focus:py-2 focus:rounded-full">
               Skip to content
             </a>
-            <Header logo={media.brand.logo} />
+            {/* Header uses usePathname(), which Cache Components requires inside Suspense */}
+            <Suspense fallback={<div className="h-28" />}>
+              <Header logo={media.brand.logo} />
+            </Suspense>
             <main id="content" className="w-full pt-28 bg-surface min-h-screen">
               {children}
             </main>

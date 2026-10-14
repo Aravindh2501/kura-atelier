@@ -4,7 +4,7 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { useCart } from "@/components/cart-provider";
 import { cn, money } from "@/lib/utils";
-import type { Product } from "@/lib/api";
+import type { Product } from "@/lib/types";
 
 const TABS = [["all", "All Prints"], ["men", "Men's Studio"], ["women", "Women's Studio"], ["unisex", "Unisex Editions"]];
 const PILLS = ["All Fits", "Boxy Oversized", "Relaxed Drop-Shoulder", "Classic Vintage", "|", "Oversized Back Graphic", "Minimal Chest Crest", "All-Over Lithograph"];

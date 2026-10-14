@@ -1,27 +1,43 @@
-import { promises as fs } from "node:fs";
-import path from "node:path";
 import { NextResponse } from "next/server";
+import type { MongoClient } from "mongodb";
 
-export const runtime = "nodejs";
-export const dynamic = "force-dynamic";
-
-const FILE = process.env.SUBSCRIBERS_DB_PATH ?? path.join(process.cwd(), ".data", "subscribers.json");
 const EMAIL = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/;
 
-/** Stores the address in a JSON file. Swap for your mailing-list provider when ready. */
+let clientPromise: Promise<MongoClient> | undefined;
+
+async function getClient(uri: string) {
+  if (!clientPromise) {
+    const { MongoClient } = await import("mongodb");
+    clientPromise = new MongoClient(uri).connect();
+  }
+  return clientPromise;
+}
+
 export async function POST(req: Request) {
   const { email } = (await req.json().catch(() => ({}))) as { email?: string };
   const clean = (email ?? "").trim().toLowerCase();
-  if (!EMAIL.test(clean)) return NextResponse.json({ error: "Enter a valid email address." }, { status: 400 });
-
-  let list: { email: string; at: string }[] = [];
-  try {
-    list = JSON.parse(await fs.readFile(FILE, "utf8"));
-  } catch {
-    /* first subscriber */
+  if (!EMAIL.test(clean)) {
+    return NextResponse.json({ error: "Enter a valid email address." }, { status: 400 });
   }
-  if (!list.some((s) => s.email === clean)) list.push({ email: clean, at: new Date().toISOString() });
-  await fs.mkdir(path.dirname(FILE), { recursive: true });
-  await fs.writeFile(FILE, JSON.stringify(list, null, 2));
-  return NextResponse.json({ ok: true });
+
+  const uri = process.env.MONGODB_URI;
+
+  // TEMPLATE MODE: no database configured yet, so the signup is only logged.
+  // Add MONGODB_URI (and optionally MONGODB_DB) in .env / Vercel to store subscribers.
+  if (!uri) {
+    console.warn("Newsletter signup (NOT stored, MONGODB_URI missing):", clean);
+    return NextResponse.json({ ok: true });
+  }
+
+  try {
+    const client = await getClient(uri);
+    await client
+      .db(process.env.MONGODB_DB ?? "kura-atelier")
+      .collection("subscribers")
+      .updateOne({ email: clean }, { $setOnInsert: { email: clean, at: new Date() } }, { upsert: true });
+    return NextResponse.json({ ok: true });
+  } catch (err) {
+    console.error("Newsletter save failed:", err);
+    return NextResponse.json({ error: "Could not subscribe right now. Please try again." }, { status: 500 });
+  }
 }

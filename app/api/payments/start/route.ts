@@ -1,8 +1,6 @@
 import { NextResponse } from "next/server";
 import { orders, startPaymentForOrder } from "@/lib/commerce";
 
-export const runtime = "nodejs";
-export const dynamic = "force-dynamic";
 
 /** Re-opens the payment for an unpaid order (popup closed, card declined…). */
 export async function POST(req: Request) {

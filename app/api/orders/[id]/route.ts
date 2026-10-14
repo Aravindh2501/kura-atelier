@@ -3,8 +3,6 @@ import { NextResponse } from "next/server";
 import { orders } from "@/lib/commerce";
 import { toPublicOrder } from "@/modules/orders/server";
 
-export const runtime = "nodejs";
-export const dynamic = "force-dynamic";
 
 type Ctx = { params: Promise<{ id: string }> };
 

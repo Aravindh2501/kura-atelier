@@ -1,10 +1,17 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
+import { connection } from "next/server";
 import { CheckoutForm } from "@/components/checkout/checkout-form";
 import { payments } from "@/lib/commerce";
 import site from "@/data/site.json";
 
 export const metadata: Metadata = { title: "Checkout", robots: { index: false } };
-export const dynamic = "force-dynamic"; // payment methods depend on environment variables
+
+// Rendered per request, so payment methods always reflect the runtime env vars.
+async function CheckoutContent() {
+  await connection();
+  return <CheckoutForm methods={payments.listMethods()} countries={site.shipping.countries} />;
+}
 
 export default function CheckoutPage() {
   return (
@@ -13,7 +20,9 @@ export default function CheckoutPage() {
         <span className="font-label-md text-label-md uppercase tracking-widest text-secondary font-bold">Secure checkout</span>
         <h1 className="font-headline-lg text-headline-lg text-primary font-bold">Delivery &amp; payment</h1>
       </div>
-      <CheckoutForm methods={payments.listMethods()} countries={site.shipping.countries} />
+      <Suspense fallback={<div className="min-h-[400px]" />}>
+        <CheckoutContent />
+      </Suspense>
     </div>
   );
 }

@@ -1,8 +1,6 @@
 import { NextResponse } from "next/server";
 import { orders, payments } from "@/lib/commerce";
 
-export const runtime = "nodejs";
-export const dynamic = "force-dynamic";
 
 /** Browser calls this after the gateway popup succeeds. Signature is checked on the server. */
 export async function POST(req: Request) {
